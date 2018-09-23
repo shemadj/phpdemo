@@ -1,0 +1,15 @@
+{
+    "name": "utel/phpdemo",
+    "description": "Proyecto para la materia de desarrollo de aplicaciones web",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "license": "GNU General  Public License (GPL)",
+    "authors": [
+        {
+            "name": "atellezf",
+            "email": "alejandro@correo.com"
+        }
+    ]
+}
