@@ -45,12 +45,12 @@
                         <td>22/09/2018</td>
                         <td>
                             <a href="editar.php?id=12345">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit text-secondary"></i>
                             </a>
                         </td>
                         <td>
                             <a href="eliminar.php?id=12345">
-                            <i class="fas fa-trash text-danger"></i>
+                                <i class="fas fa-trash text-secondary"></i>
                             </a>
                         </td>
                     </tr>
@@ -62,12 +62,12 @@
                         <td>22/09/2018</td>
                         <td>
                             <a href="editar.php?id=12345">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit text-secondary"></i>
                             </a>
                         </td>
                         <td>
                             <a href="eliminar.php?id=12345">
-                            <i class="fas fa-trash text-danger"></i>
+                                <i class="fas fa-trash text-secondary"></i>
                             </a>
                         </td>
                     </tr>
@@ -79,12 +79,12 @@
                         <td>22/09/2018</td>
                         <td>
                             <a href="editar.php?id=12345">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit text-secondary"></i>
                             </a>
                         </td>
                         <td>
                             <a href="eliminar.php?id=12345">
-                            <i class="fas fa-trash text-danger"></i>
+                                <i class="fas fa-trash text-secondary"></i>
                             </a>
                         </td>
                     </tr>
@@ -96,12 +96,12 @@
                         <td>22/09/2018</td>
                         <td>
                             <a href="editar.php?id=12345">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit text-secondary"></i>
                             </a>
                         </td>
                         <td>
                             <a href="eliminar.php?id=12345">
-                            <i class="fas fa-trash text-danger"></i>
+                                <i class="fas fa-trash text-secondary"></i>
                             </a>
                         </td>
                     </tr>
@@ -113,12 +113,12 @@
                         <td>22/09/2018</td>
                         <td>
                             <a href="editar.php?id=12345">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit text-secondary"></i>
                             </a>
                         </td>
                         <td>
                             <a href="eliminar.php?id=12345">
-                            <i class="fas fa-trash text-danger"></i>
+                                <i class="fas fa-trash text-secondary"></i>
                             </a>
                         </td>
                     </tr>
@@ -130,15 +130,15 @@
                         <td>22/09/2018</td>
                         <td>
                             <a href="editar.php?id=12345">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit text-secondary"></i>
                             </a>
                         </td>
                         <td>
                             <a href="eliminar.php?id=12345">
-                            <i class="fas fa-trash text-danger"></i>
+                                <i class="fas fa-trash text-secondary"></i>
                             </a>
                         </td>
-                    </tr>
+                    </tr>                    
                 </tbody>
 
 
