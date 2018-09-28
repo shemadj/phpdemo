@@ -11,5 +11,11 @@
             "name": "atellezf",
             "email": "alejandro@correo.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Utel\\Util\\" : "src/util",
+            "Utel\\DataSource\\" : "src/datasource"
+        }
+    }
 }
