@@ -37,108 +37,25 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Bodoque</td>
-                        <td>b.bodoque@correo.com</td>
-                        <td>b.bodoque</td>
-                        <td>22/09/2018</td>
-                        <td>
-                            <a href="editar.php?id=12345">
-                                <i class="fas fa-edit text-secondary"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="eliminar.php?id=12345">
-                                <i class="fas fa-trash text-secondary"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Bodoque</td>
-                        <td>b.bodoque@correo.com</td>
-                        <td>b.bodoque</td>
-                        <td>22/09/2018</td>
-                        <td>
-                            <a href="editar.php?id=12345">
-                                <i class="fas fa-edit text-secondary"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="eliminar.php?id=12345">
-                                <i class="fas fa-trash text-secondary"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Bodoque</td>
-                        <td>b.bodoque@correo.com</td>
-                        <td>b.bodoque</td>
-                        <td>22/09/2018</td>
-                        <td>
-                            <a href="editar.php?id=12345">
-                                <i class="fas fa-edit text-secondary"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="eliminar.php?id=12345">
-                                <i class="fas fa-trash text-secondary"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Bodoque</td>
-                        <td>b.bodoque@correo.com</td>
-                        <td>b.bodoque</td>
-                        <td>22/09/2018</td>
-                        <td>
-                            <a href="editar.php?id=12345">
-                                <i class="fas fa-edit text-secondary"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="eliminar.php?id=12345">
-                                <i class="fas fa-trash text-secondary"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Bodoque</td>
-                        <td>b.bodoque@correo.com</td>
-                        <td>b.bodoque</td>
-                        <td>22/09/2018</td>
-                        <td>
-                            <a href="editar.php?id=12345">
-                                <i class="fas fa-edit text-secondary"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="eliminar.php?id=12345">
-                                <i class="fas fa-trash text-secondary"></i>
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Benito</td>
-                        <td>Bodoque</td>
-                        <td>b.bodoque@correo.com</td>
-                        <td>b.bodoque</td>
-                        <td>22/09/2018</td>
-                        <td>
-                            <a href="editar.php?id=12345">
-                                <i class="fas fa-edit text-secondary"></i>
-                            </a>
-                        </td>
-                        <td>
-                            <a href="eliminar.php?id=12345">
-                                <i class="fas fa-trash text-secondary"></i>
-                            </a>
-                        </td>
-                    </tr>                    
+                    <?php foreach($listado as $usuario): ?>
+                        <tr>
+                            <td><?= $usuario['nombre'] ?></td>
+                            <td><?= $usuario['apellidos'] ?></td>
+                            <td><?= $usuario['email'] ?></td>
+                            <td><?= $usuario['username'] ?></td>
+                            <td><?= $usuario['creado']?></td>
+                            <td>
+                                <a href="editar.php?id=<?= $usuario['id'] ?>">
+                                    <i class="fas fa-edit text-secondary"></i>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="eliminar.php?id=<?= $usuario['id'] ?>">
+                                    <i class="fas fa-trash text-secondary"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>            
                 </tbody>
 
 

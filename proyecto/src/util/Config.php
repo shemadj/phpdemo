@@ -32,6 +32,14 @@ class Config {
         return $log;
     }
 
+    public static function camposVacios(...$campos) {
+        $resultado = false;
+        foreach($campos as $campo) {
+            $resultado = empty($campo) or $resultado;
+        }
+        return $resultado;
+    }
+
 }
 
 ?>
